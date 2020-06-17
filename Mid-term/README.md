@@ -11,7 +11,7 @@ Conv2D用于实现最大池化，需要设定池化核大小、padding方式、�
 ```python
 x = MaxPooling2D(pool_size = 2, strides = 2, padding = 'same',)(x)
 ```
-#全部代码
+# 全部代码
 ```python
 import tensorflow as tf
 from tensorflow.keras.layers import Flatten,Conv2D,Dropout,Input,Dense,MaxPooling2D
