@@ -43,3 +43,12 @@ plt.plot(x[0:50],y[0:50])
 plt.title('原始部分波形（前50组样本）')
 plt.show()
 ```
+![image1](https://https://github.com/666tugege/ai108b/blob/master/Final-term/08-%E7%A7%91%E5%AD%B8%E8%A8%88%E7%AE%97_Scientific%20Computing/result.png?raw=true)
+
+由图可见，由于采样点太过密集，看起来不好看，我们只显示前面的50组数据，如下：
+
+![image1](https://github.com/666tugege/ai108b/blob/master/Final-term/08-%E7%A7%91%E5%AD%B8%E8%A8%88%E7%AE%97_Scientific%20Computing/%E6%B3%A2%E5%BD%A2.png?raw=true)
+
+# 参考资料
+http://www.cs.princeton.edu/introcs/97data/FFT.java.html
+https://www.zhihu.com/topic/19600515/hot
