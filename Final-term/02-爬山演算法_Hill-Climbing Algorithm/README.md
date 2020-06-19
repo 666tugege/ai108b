@@ -2,8 +2,10 @@
 # 爬山算法
 爬山算法是一种简单的贪心搜索算法，该算法每次从当前解的临近解空间中选择一个最优解作为当前解，直到达到一个局部最优解。爬山算法实现很简单，其主要缺点是会陷入局部最优解，而不一定能搜索到全局最优解。假设C点为当前解，爬山算法搜索到A点这个局部最优解就会停止搜索，因为在A点无论向那个方向小幅度移动都不能得到更优的解。
 
-![image](https://github.com/666tugege/ai108b/blob/master/Final-term/02-%E7%88%AC%E5%B1%B1%E6%BC%94%E7%AE%97%E6%B3%95_Hill-Climbing%20Algorithm/%E7%88%AC%E5%B1%B1%E7%AE%97%E6%B3%95.png?raw=true)
+![图一](https://github.com/666tugege/ai108b/blob/master/Final-term/02-%E7%88%AC%E5%B1%B1%E6%BC%94%E7%AE%97%E6%B3%95_Hill-Climbing%20Algorithm/%E7%88%AC%E5%B1%B1%E7%AE%97%E6%B3%95.png?raw=true)
 
 # 模拟退火算法
 
 模拟退火其实也是一种贪心算法，但是它的搜索过程引入了随机因素。在迭代更新可行解时，以一定的概率来接受一个比当前解要差的解，因此有可能会跳出这个局部的最优解，达到全局的最优解。以下图为例，假定初始解为左边蓝色点A，模拟退火算法会快速搜索到局部最优解B，但在搜索到局部最优解后，不是就此结束，而是会以一定的概率接受到右边的移动。也许经过几次这样的不是局部最优的移动后会到达全局最优点D，于是就跳出了局部最小值。
+
+![图二](https://github.com/666tugege/ai108b/blob/master/Final-term/02-%E7%88%AC%E5%B1%B1%E6%BC%94%E7%AE%97%E6%B3%95_Hill-Climbing%20Algorithm/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB%E7%AE%97%E6%B3%95.png?raw=true)
